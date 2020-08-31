@@ -53,8 +53,13 @@ namespace HelloWorld
             input = Console.ReadKey().KeyChar;
             if(input == '1')
             {
-                Console.WriteLine("")
+                Console.WriteLine("You start to read the legend that tells the tale that if the center of the world is found and it's tresure is taken it will bring the end of time");
             }
+            if(input == '2')
+            {
+                Console.WriteLine("You ignore the legend and explore the tomb and you find 100 gold and new armor and weapons");
+            }
+            
         }
     }
 }
